@@ -32,6 +32,7 @@ export default function Home() {
               <Link
                 href={socmed.url}
                 className="border-2 border-primary p-2 rounded-full w-14 h-14 flex justify-center items-center hover:bg-primary hover:scale-110 transition-all duration-300"
+                key={socmed.url}
               >
                 {socmed.icons}
               </Link>

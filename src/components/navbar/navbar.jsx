@@ -106,6 +106,7 @@ export default function Navbar() {
               </button>
               {navigation.map((nav) => (
                 <Link
+                  key={nav.id}
                   href={nav.id}
                   onClick={(e) => handleClick(e, nav.id)}
                   className={` transition-all duration-300 capitalize

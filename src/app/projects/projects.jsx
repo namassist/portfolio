@@ -12,7 +12,10 @@ export const Projects = () => {
       </h1>
       <div className="flex flex-wrap gap-5">
         {projects.map((project) => (
-          <div className="w-full lg:w-[calc(33.33%_-_.9rem)] flex-col justify-between border-primary border-2 rounded-lg px-6 py-6 space-y-5 md:mb-5">
+          <div
+            className="w-full lg:w-[calc(33.33%_-_.9rem)] flex-col justify-between border-primary border-2 rounded-lg px-6 py-6 space-y-5 md:mb-5"
+            key={project.name}
+          >
             <div className="flex justify-between">
               <h1 className="text-2xl font-bold capitalize">{project.title}</h1>
               <div className="flex gap-2 items-center">
