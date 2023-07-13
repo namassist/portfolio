@@ -9,7 +9,7 @@ export const Skills = () => {
       </h1>
       <div className="flex flex-wrap gap-8">
         {skills.map((skill) => (
-          <Card data={skill} />
+          <Card data={skill} key={skill.name} />
         ))}
       </div>
     </section>
