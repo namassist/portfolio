@@ -30,12 +30,20 @@ export default function Hero() {
           delivering seamless user experiences
         </p>
         <div className="flex gap-3">
-          <PulsatingButton
-            className="text-sm capitalize bg-foreground/80 dark:bg-foreground/80"
-            pulseColor="#004e92"
+          <Link
+            href="/curriculum-vitae.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            locale={false}
           >
-            Download CV
-          </PulsatingButton>
+            <PulsatingButton
+              className="text-sm capitalize bg-foreground/80 dark:bg-foreground/80"
+              pulseColor="#004e92"
+            >
+              Download CV
+            </PulsatingButton>
+          </Link>
           <Link href="#projects">
             <ShinyButton text="view my work" />
           </Link>
