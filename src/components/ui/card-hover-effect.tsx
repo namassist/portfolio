@@ -121,6 +121,7 @@ export const Card = ({
         alt={path}
         width={1000}
         height={1000}
+        priority
         className={cn(
           "rounded-t-2xl object-cover h-20 sm:h-40 w-full bg-cover relative -mt-1",
           className

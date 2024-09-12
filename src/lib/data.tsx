@@ -194,8 +194,8 @@ export const portfolio = [
       },
     ],
     repository: "",
-    demo: "https://kpi-landing-page.vercel.app/",
-    path: "/certification_backend_dicoding.png",
+    demo: "https://www.kehatiruviikasim.com/",
+    path: "/kehatiru7.png",
   },
   {
     title: "LLMS",
@@ -229,7 +229,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/lllm",
     demo: "",
-    path: "/certification_backend_dicoding.png",
+    path: "/llms.png",
   },
   {
     title: "AMD Academy",
@@ -250,33 +250,84 @@ export const portfolio = [
     ],
     repository: "",
     demo: "https://amd.arkatama.id",
-    path: "/certification_backend_dicoding.png",
+    path: "/amd-academy.png",
   },
   {
-    title: "News App",
-    description:
-      "A news portal that lets you search and save the latest headlines.",
+    title: "Bantoonusa",
+    description: "Landing page for Bantoonusa's web development services.",
     techStack: [
       {
-        name: "React",
-        icon: "SiReact",
+        name: "Next",
+        icon: "SiNextdotjs",
       },
       {
         name: "Tailwind CSS",
         icon: "SiTailwindcss",
       },
       {
-        name: "Redux",
-        icon: "SiRedux",
-      },
-      {
         name: "Vercel",
         icon: "SiVercel",
       },
     ],
-    repository: "https://github.com/namassist/news-app",
+    repository: "https://github.com/namassist/lintang-nuswantara-landing-page",
+    demo: "https://bantoonusa.vercel.app",
+    path: "/bantoonusa.png",
+  },
+  {
+    title: "SAMPAM",
+    description:
+      "A system for monitoring interns with daily log updates and attendance tracking.",
+    techStack: [
+      {
+        name: "Next.js",
+        icon: "SiNextdotjs",
+      },
+      {
+        name: "Prisma",
+        icon: "SiPrisma",
+      },
+      {
+        name: "MySQL",
+        icon: "SiMysql",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "SiTailwindcss",
+      },
+      {
+        name: "Shadcn UI",
+        icon: "SiShadcnui",
+      },
+    ],
+    repository: "https://github.com/namassist/sampam",
     demo: "",
-    path: "/certification_backend_dicoding.png",
+    path: "/sampam.png",
+  },
+  {
+    title: "API Sistem Presensi online QRcode",
+    description:
+      "An API for online attendance using QR codes, making check-ins fast and easy.",
+    techStack: [
+      {
+        name: "Express",
+        icon: "SiExpress",
+      },
+      {
+        name: "MySQL",
+        icon: "SiMysql",
+      },
+      {
+        name: "Prisma",
+        icon: "SiPrisma",
+      },
+      {
+        name: "JWT",
+        icon: "SiJsonwebtokens",
+      },
+    ],
+    repository: "https://github.com/namassist/sipintar_api",
+    demo: "",
+    path: "/certif-top.png",
   },
   {
     title: "Movie App",
@@ -302,7 +353,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/movies-app",
     demo: "https://moviesisst.vercel.app/",
-    path: "/certification_backend_dicoding.png",
+    path: "/movieku.png",
   },
   {
     title: "E-Commerce App",
@@ -331,28 +382,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/e-commerce",
     demo: "https://nam-commerce.vercel.app/",
-    path: "/certification_backend_dicoding.png",
-  },
-  {
-    title: "Landing Page Bantoonusa",
-    description: "Landing page for Bantoonusa's web development services.",
-    techStack: [
-      {
-        name: "Next",
-        icon: "SiNextdotjs",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "SiTailwindcss",
-      },
-      {
-        name: "Vercel",
-        icon: "SiVercel",
-      },
-    ],
-    repository: "https://github.com/namassist/lintang-nuswantara-landing-page",
-    demo: "",
-    path: "/certification_backend_dicoding.png",
+    path: "/ecommerce.png",
   },
   {
     title: "Hotel Reservation App",
@@ -378,6 +408,6 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/hotel-reservation",
     demo: "",
-    path: "/certification_backend_dicoding.png",
+    path: "/certif-top.png",
   },
 ];
