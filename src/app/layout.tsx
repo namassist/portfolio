@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Calistoga } from "next/font/google";
 import { ThemeProvider } from "./theme-provider";
-import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const calistoga = Calistoga({
@@ -36,6 +37,7 @@ export default function RootLayout({
             {children}
           </ActiveSectionContextProvider>
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
