@@ -32,25 +32,25 @@ export default function Contacts() {
         <p className="mt-16 text-base font-semibold">Find me on social media</p>
         <div className="flex justify-center items-center gap-6 mt-4">
           <Link
-            href="mailto:chairulanmm@gmail.com"
+            href="https://web.facebook.com/chairulanam.maulidin/"
             className="hover:text-blue-700 duration-200"
           >
             <SiFacebook className="w-5 h-5" />
           </Link>
           <Link
-            href="mailto:chairulanmm@gmail.com"
+            href="https://www.instagram.com/chairulssr/"
             className="hover:text-blue-700 duration-200"
           >
             <SiInstagram className="w-5 h-5" />
           </Link>
           <Link
-            href="mailto:chairulanmm@gmail.com"
+            href="https://github.com/namassist/"
             className="hover:text-blue-700 duration-200"
           >
             <SiGithub className="w-5 h-5" />
           </Link>
           <Link
-            href="mailto:chairulanmm@gmail.com"
+            href="https://www.linkedin.com/in/chairulanmm/"
             className="hover:text-blue-700 duration-200"
           >
             <SiLinkedin className="w-5 h-5" />
