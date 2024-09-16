@@ -144,6 +144,15 @@ export const certifications = [
     url_credential: "https://www.dicoding.com/certificates/GRX52Q99YX0M",
   },
   {
+    name: "React & React Native for Frontend Developer",
+    company: "Hacktiv8",
+    type: "Bootcamp",
+    earned: "30 Juni 2023",
+    path: "/certification_react_hacktiv8.png",
+    url_credential:
+      "https://drive.google.com/file/d/1_kAhjFulL6_fB4TtoVyWNgAGsdZYvbO1/view?usp=drive_link",
+  },
+  {
     name: "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Cloudeka",
     company: "Dicoding",
     type: "Training",
@@ -162,7 +171,7 @@ export const certifications = [
   {
     name: "React JS Web Frontend",
     company: "Jabar Coding Camp",
-    type: "Training",
+    type: "Bootcamp",
     earned: "28 September 2021",
     path: "/certification_react_jcc.png",
     url_credential:
