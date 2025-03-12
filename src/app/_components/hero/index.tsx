@@ -19,15 +19,15 @@ export default function Hero() {
       ref={ref}
     >
       <Ripple />
-      <div className="flex flex-col justify-center items-center space-y-6 z-50 max-w-xl leading-snug">
+      <div className="flex flex-col justify-center items-center space-y-6 z-50 max-w-xl">
         <AvatarCircles avatarUrls="/profile.webp" />
         <TypingAnimation
           className="text-2xl font-bold md:text-3xl lg:text-4xl text-center capitalize font-serif tracking-wider"
-          text="Developing Modern Web Apps"
+          text="Building Fast, Scalable & Secure Apps"
         />
         <p className="text-foreground/80 text-center text-sm">
-          Skilled in Next.js, React.js and Tailwind CSS with a focus on
-          delivering seamless user experiences
+          Frontend Engineer specializing in React, Next.js, and Flutter. Focused
+          on performance, security, and seamless user experiences.
         </p>
         <div className="flex gap-3">
           <Link

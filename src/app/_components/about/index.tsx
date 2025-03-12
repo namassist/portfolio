@@ -30,31 +30,28 @@ export default function About() {
       <div className="container mx-auto lg:px-24">
         <SectionTitle title="about" />
         <div className="overflow-hidden w-full flex flex-col gap-5 mt-10 space-y-5 sm:flex-row sm:space-y-0">
-          <div className="w-full md:w-8/12 space-y-5 text-sm sm:text-base">
+          <div className="w-full md:w-8/12 space-y-10 text-sm sm:text-base">
             <p className="leading-relaxed text-foreground/90">
-              Hi, I&apos;m Chairul Anaam Maulidin, a Fullstack Web Developer
-              with over a year of experience in crafting dynamic and responsive
-              web applications. My expertise lies in leveraging modern
-              frameworks like Next.js, React.js, and Laravel to build
-              applications that not only meet client needs but also scale
-              efficiently as they grow.
+              Hi, I&apos;m Chairul Anaam Maulidin, a Frontend Engineer
+              specializing in React, Next.js, and Flutter. With a strong
+              foundation in frontend development, I build high-quality
+              applications by applying best practices, ensuring efficiency,
+              security, and scalability.
             </p>
             <p className="leading-relaxed text-foreground/90">
-              I have a strong foundation in both frontend and backend
-              development, enabling me to understand and optimize the full
-              lifecycle of a web project. Im particularly passionate about
-              creating user-friendly interfaces and ensuring that every line of
-              code I write contributes to the overall performance and security
-              of the application.
+              I thrive in dynamic environments, quickly adapting to new
+              technologies and delivering solutions that enhance user
+              experience. My flexibility in working with various programming
+              languages allows me to craft robust, maintainable, and performant
+              applications.
             </p>
             <p className="leading-relaxed text-foreground/90">
-              I&apos;m currently seeking new opportunities where I can
-              contribute my skills to exciting projects and further develop my
-              expertise as a developer. Im eager to join a team that values
-              innovation and collaboration.
+              I&apos;m seeking new opportunities to collaborate with innovative
+              teams, contribute my expertise, and grow as a developer.
+              Let&apos;s build something great together!
             </p>
           </div>
-          <div className="relative flex flex-col h-full w-full max-w-fit items-center justify-center overflow-hidden rounded-lg bg-transparent md:w-4/12">
+          <div className="relative flex flex-col w-full max-w-fit items-center justify-center overflow-hidden rounded-lg bg-transparent md:w-4/12">
             <h4 className="flex items-center">
               <SquareTerminal className="text-indigo-500 text-2xl" />
               <span className="font-bold ml-2">Skillsets</span>

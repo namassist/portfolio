@@ -110,35 +110,38 @@ export default function Experiences() {
     >
       <div className="container mx-auto lg:px-24">
         <SectionTitle title="experiences" />
-        <Tabs defaultValue="working" className="mt-14">
-          <TabsList className="w-3/12">
-            <TabsTrigger value="working" className="w-[calc(100%_-_4px)]">
+        <Tabs
+          defaultValue="working"
+          className="mt-14 flex-col space-y-8 sm:flex-row sm:space-y-0"
+        >
+          <TabsList className="w-full sm:w-3/12">
+            <TabsTrigger value="working" className="sm:w-[calc(100%_-_4px)]">
               Working Experiences
             </TabsTrigger>
             <TabsTrigger
               value="organizational"
-              className="w-[calc(100%_-_4px)]"
+              className="sm:w-[calc(100%_-_4px)]"
             >
               Organizational Experiences
             </TabsTrigger>
             <TabsTrigger
               value="certifications"
-              className="w-[calc(100%_-_4px)]"
+              className="sm:w-[calc(100%_-_4px)]"
             >
               Profesional Certifications
             </TabsTrigger>
           </TabsList>
-          <TabsContent value="working" className="w-9/12">
+          <TabsContent value="working" className="w-full sm:w-9/12">
             <div className="animate-fade-left">
               <Timeline data={workingContent} />
             </div>
           </TabsContent>
-          <TabsContent value="organizational" className="w-9/12">
+          <TabsContent value="organizational" className="w-full sm:w-9/12">
             <div className="animate-fade-left">
               <Timeline data={organizationContent} />
             </div>
           </TabsContent>
-          <TabsContent value="certifications" className="w-9/12">
+          <TabsContent value="certifications" className="w-full sm:w-9/12">
             <div className="animate-fade-left">
               <Timeline data={certificationContent} />
             </div>

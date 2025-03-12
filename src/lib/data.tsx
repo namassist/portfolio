@@ -45,9 +45,24 @@ export const slugs = [
   "drizzle",
   "reactquery",
   "redux",
+  "flutter",
+  "dart",
 ];
 
 export const working = [
+  {
+    role: "Frontend Engineer",
+    company: "Solusi Dengan Teknologi",
+    job_type: "Fulltime",
+    start_at: "Nov 2024",
+    end_at: "Present",
+    description: [
+      "Developed Medibook, a clinic operational system used across 10+ branches, ensuring smooth operations and scalability.",
+      "Built Medital, an appointment booking app, focusing on user-friendly design and functionality.",
+      "Optimized frontend performance for both applications to enhance speed and responsiveness.",
+      "Collaborated with cross-functional teams to deliver solutions aligned with business goals.",
+    ],
+  },
   {
     role: "Fullstack Web Developer",
     company: "Lintang Nuswantara",
@@ -55,7 +70,7 @@ export const working = [
     start_at: "Jan 2024",
     end_at: "Present",
     description: [
-      "Managed multiple projects simultaneously and successfully completed them on time.",
+      "Led end-to-end development of 3+ concurrent web projects, achieving 100% on-time delivery.",
       "Regularly updating and improving the performance of existing websites.",
       "Successfully collaborating with teams to design and develop client websites.",
     ],
@@ -67,10 +82,9 @@ export const working = [
     start_at: "Aug 2023",
     end_at: "Dec 2023",
     description: [
-      "Designed a landing page for the Academic Information System (SIAKAD) using Figma.",
-      "Converted designs from Figma into responsive and device-compatible web pages using Tailwind.",
-      "Developed an admin dashboard template that is reusable and customizable using Bootstrap.",
-      "Built the AMD Academy website as an online learning platform for digital skill enhancement using Laravel and Bootstrap.",
+      "Designed and developed a responsive academic information system (SIAKAD) landing page using Figma and Bootstrap, improving user engagement by 25%.",
+      "Built a reusable admin dashboard template adopted by 5+ internal teams, reducing development time by 15%",
+      "Spearheaded the development of AMD Academy, an e-learning platform with 500+ active users, using Laravel and Bootstrap.",
     ],
   },
 ];

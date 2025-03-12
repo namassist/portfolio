@@ -38,10 +38,21 @@ export default function Home() {
     );
   }
 
+  // return (
+  //   <div className="flex flex-col justify-center items-center h-screen space-y-2">
+  //     <p>Under Construction!</p>
+  //     <p>Use desktop for better experience</p>
+  //   </div>
+  // );
   return (
-    <div className="flex flex-col justify-center items-center h-screen space-y-2">
-      <p>Under Construction!</p>
-      <p>Use desktop for better experience</p>
-    </div>
+    <main className="relative w-full ">
+      <Header />
+      <Hero />
+      <About />
+      <Experiences />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
