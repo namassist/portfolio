@@ -7,9 +7,11 @@ import { Mail } from "lucide-react";
 import { SiFacebook, SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 
 export default function Contacts() {
-  const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("contacts");
+  const t = useTranslations("contacts");
 
   return (
     <motion.section
@@ -18,18 +20,15 @@ export default function Contacts() {
       className="w-full pt-20 pb-10 overflow-hidden bg-background relative md:shadow-xl flex justify-center"
     >
       <div className="text-center max-w-xl">
-        <h4 className="text-5xl font-black">Get in Touch.</h4>
-        <p className="mt-4 text-lg font-medium">
-          I&apos;d love to hear from you. Whether it&apos;s a project, a
-          question, or just to say hello, feel free to reach out.
-        </p>
+        <h4 className="text-5xl font-black">{t("title")}</h4>
+        <p className="mt-4 text-lg font-medium">{t("description")}</p>
         <Link href="mailto:chairulanmm@gmail.com">
           <Button variant="outline" className="mt-8">
             <Mail className="mr-2" />
-            Send an Email
+            {t("cta_email")}
           </Button>
         </Link>
-        <p className="mt-16 text-base font-semibold">Find me on social media</p>
+        <p className="mt-16 text-base font-semibold">{t("cta_socmed")}</p>
         <div className="flex justify-center items-center gap-6 mt-4">
           <Link
             href="https://web.facebook.com/chairulanam.maulidin/"

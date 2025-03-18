@@ -2,11 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { portfolio } from "@/lib/data";
 import SectionTitle from "@/components/section-title";
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects");
+  const { ref } = useSectionInView("projects");
+  const t = useTranslations("projects");
+  const portfolioItems = t.raw("items");
 
   return (
     <motion.section
@@ -15,9 +17,9 @@ export default function Projects() {
       ref={ref}
     >
       <div className="container mx-auto lg:px-24">
-        <SectionTitle title="projects" />
+        <SectionTitle title={t("section")} />
         <div className="w-full">
-          <HoverEffect items={portfolio} />
+          <HoverEffect items={portfolioItems} />
         </div>
       </div>
     </motion.section>

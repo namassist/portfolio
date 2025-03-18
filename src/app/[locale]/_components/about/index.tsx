@@ -5,9 +5,11 @@ import { useSectionInView } from "@/lib/hooks";
 import SectionTitle from "@/components/section-title";
 import IconCloud from "@/components/magicui/icon-cloud";
 import { SquareTerminal } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("about");
+  const t = useTranslations("about");
 
   return (
     <motion.section
@@ -28,27 +30,17 @@ export default function About() {
       }}
     >
       <div className="container mx-auto lg:px-24">
-        <SectionTitle title="about" />
+        <SectionTitle title={t("section")} />
         <div className="overflow-hidden w-full flex flex-col gap-5 mt-10 space-y-5 sm:flex-row sm:space-y-0">
-          <div className="w-full md:w-8/12 space-y-10 text-sm sm:text-base">
+          <div className="w-full md:w-8/12 space-y-6 text-sm sm:text-base">
             <p className="leading-relaxed text-foreground/90">
-              Hi, I&apos;m Chairul Anaam Maulidin, a Frontend Engineer
-              specializing in React, Next.js, and Flutter. With a strong
-              foundation in frontend development, I build high-quality
-              applications by applying best practices, ensuring efficiency,
-              security, and scalability.
+              {t("paragraph1")}
             </p>
             <p className="leading-relaxed text-foreground/90">
-              I thrive in dynamic environments, quickly adapting to new
-              technologies and delivering solutions that enhance user
-              experience. My flexibility in working with various programming
-              languages allows me to craft robust, maintainable, and performant
-              applications.
+              {t("paragraph2")}
             </p>
             <p className="leading-relaxed text-foreground/90">
-              I&apos;m seeking new opportunities to collaborate with innovative
-              teams, contribute my expertise, and grow as a developer.
-              Let&apos;s build something great together!
+              {t("paragraph3")}
             </p>
           </div>
           <div className="relative flex flex-col w-full max-w-fit items-center justify-center overflow-hidden rounded-lg bg-transparent md:w-4/12">

@@ -2,14 +2,15 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { navItems } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTranslations } from "next-intl";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+  const t = useTranslations("menus");
 
   return (
     <header className="z-[999] relative">
@@ -21,7 +22,7 @@ export default function Header() {
 
       <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-neutral-300 sm:w-[initial] sm:flex-nowrap sm:gap-5">
-          {navItems.map((link) => (
+          {t.raw("items").map((link: any, index: number) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
               key={link.link}
@@ -30,10 +31,10 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-neutral-300 dark:hover:text-neutral-300/50",
+                  "capitalize flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-neutral-300 dark:hover:text-neutral-300/50",
                   {
                     "dark:hover:text-[#004e92] dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#000428] dark:to-[#004e92]":
-                      activeSection === link.name,
+                      activeSection === link.slug,
                   }
                 )}
                 href={link.link}
@@ -43,7 +44,7 @@ export default function Header() {
                 }}
               >
                 {link.name}
-                {link.name === activeSection && (
+                {link.slug === activeSection && (
                   <motion.span
                     className="rounded-full absolute inset-0 -z-10 bg-gradient-to-r from-[#ECE9E6] to-[#FFFFFF]"
                     layoutId="activeSection"

@@ -1,0 +1,447 @@
+{
+  "menus": {
+    "items": [
+      {
+        "name": "beranda",
+        "link": "#",
+        "slug": "home"
+      },
+      {
+        "name": "tentang",
+        "link": "#about",
+        "slug": "about"
+      },
+      {
+        "name": "pengalaman",
+        "link": "#experiences",
+        "slug": "experiences"
+      },
+      {
+        "name": "projek",
+        "link": "#projects",
+        "slug": "projects"
+      },
+      {
+        "name": "kontak",
+        "link": "#contacts",
+        "slug": "contacts"
+      }
+    ]
+  },
+  "hero": {
+    "section": "",
+    "title": "Bangun aplikasi yang cepat, skalabel, dan aman!",
+    "description": "Frontend Engineer spesialis React, Next.js, dan Flutter yang fokus pada performa, keamanan, dan pengalaman pengguna yang mulus di semua perangkat.",
+    "btn_download": "Unduh CV",
+    "btn_view_work": "Lihat Pekerjaan Saya"
+  },
+  "about": {
+    "section": "Tentang",
+    "paragraph1": "Hai, saya Chairul Anaam Maulidin, seorang Frontend Engineer dengan pengalaman 2 tahun dalam mengembangkan aplikasi dengan React, Next.js, dan Flutter. Dengan fondasi yang kuat dalam pengembangan frontend, saya membangun aplikasi dengan menerapkan best practice untuk memastikan efisiensi, keamanan, dan skalabilitas.",
+    "paragraph2": "Saya terbiasa bekerja di lingkungan yang dinamis, cepat beradaptasi dengan teknologi baru, dan menghadirkan solusi yang meningkatkan pengalaman pengguna. Fleksibilitas saya dalam berbagai bahasa pemrograman memungkinkan saya mengembangkan aplikasi secara lebih efektif dan cepat, sekaligus memastikan hasil yang diinginkan tercapai.",
+    "paragraph3": "Saya sedang mencari peluang baru untuk berkolaborasi dengan tim yang inovatif dan terus berkembang sebagai developer. Mari kita bangun sesuatu yang hebat bersama!"
+  },
+  "experiences": {
+    "section": "Pengalaman",
+    "at": "di",
+    "tabs": {
+      "working": "Pengalaman Kerja",
+      "organizational": "Pengalaman Organisasi",
+      "certifications": "Sertifikasi Profesional"
+    },
+    "workings": {
+      "items": [
+        {
+          "role": "Frontend Engineer",
+          "company": "Solusi Dengan Teknologi",
+          "job_type": "Penuh Waktu",
+          "start_at": "Nov 2024",
+          "end_at": "Sekarang",
+          "description": [
+            "Mengembangkan Medibook, sistem operasional klinik yang digunakan di lebih dari 10 cabang, serta memastikan kelancaran operasional dan skalabilitas.",
+            "Membangun Medital, aplikasi booking jadwal online, fokus pada desain dan fungsionalitas yang ramah pengguna.",
+            "Mengoptimalkan performa frontend pada kedua aplikasi untuk meningkatkan kecepatan dan responsivitas.",
+            "Berkolaborasi dengan tim dari divisi lain untuk memberikan solusi yang sejalan dengan tujuan bisnis."
+          ]
+        },
+        {
+          "role": "Fullstack Web Developer",
+          "company": "Lintang Nuswantara",
+          "job_type": "Freelance",
+          "start_at": "Jan 2024",
+          "end_at": "Sekarang",
+          "description": [
+            "Memimpin pengembangan dari 3+ proyek dan menyelesaikannya tepat waktu.",
+            "Secara berkala memperbarui dan meningkatkan performa website yang ada.",
+            "Berkolaborasi dengan tim untuk merancang dan mengembangkan website klien."
+          ]
+        },
+        {
+          "role": "Frontend Developer",
+          "company": "Arkatama Multi Solusindo",
+          "job_type": "Magang",
+          "start_at": "Agu 2023",
+          "end_at": "Des 2023",
+          "description": [
+            "Merancang dan mengembangkan landing page sistem informasi akademik (SIAKAD) yang responsif menggunakan Figma dan Bootstrap, meningkatkan keterlibatan pengguna sebesar 25%.",
+            "Membangun template dashboard admin yang dapat digunakan kembali, diadopsi oleh 5+ tim internal dan mengurangi waktu pengembangan sebesar 15%",
+            "Mengembangkan AMD Academy, platform e-learning dengan 500+ pengguna aktif, menggunakan Laravel dan Bootstrap."
+          ]
+        }
+      ]
+    },
+    "organizations": {
+      "items": [
+        {
+          "role": "Administrator",
+          "company": "Polytechnic Computer Club",
+          "job_type": "Organisasi",
+          "start_at": "Mei 2022",
+          "end_at": "Mei 2023",
+          "description": [
+            "Memimpin tim yang terdiri dari 68 anggota untuk merencanakan dan melaksanakan lebih dari 10 program kerja, termasuk seminar nasional dan kompetisi perlombaan dengan memastikan kegiatan yang berjalan selaras dengan tujuan organisasi."
+          ]
+        },
+        {
+          "role": "Kepala Departemen Software",
+          "company": "Polytechnic Computer Club",
+          "job_type": "Organisasi",
+          "start_at": "Mei 2021",
+          "end_at": "Mei 2022",
+          "description": [
+            "Merancang dan menyelenggarakan lebih dari tiga pelatihan mengenai Software Development yang diikuti oleh lebih dari 25 orang",
+            "Merancang, Mengembangkan dan Mengelola Blog dengan desain yang responsif serta alur konten dinamis menggunakan Next.js dan Strapi.",
+            "Mengelola dan Mengawasi hosting, memastikan waktu aktif mencapai 90% dan proses deployment yang lancar.",
+            "Mengembangkan website Pemilihan Raya Polines 2022, memungkinkan lebih dari 1.000 mahasiswa untuk memilih dengan aman."
+          ]
+        }
+      ]
+    },
+    "certifications": {
+      "earned_on": "Diperoleh pada",
+      "items": [
+        {
+          "name": "Software Engineer Role",
+          "company": "HackerRank",
+          "type": "Pelatihan",
+          "earned": "26 Agustus 2024",
+          "path": "/certification_softwarengineer_hackerrank.png",
+          "url_credential": "https://www.hackerrank.com/certificates/b7b89ad7e8d1"
+        },
+        {
+          "name": "Frontend Developer Role (React)",
+          "company": "HackerRank",
+          "type": "Pelatihan",
+          "earned": "13 Agustus 2024",
+          "path": "/certification_frontend_hackerrank.png",
+          "url_credential": "https://www.hackerrank.com/certificates/7efa24004355"
+        },
+        {
+          "name": "Problem Solving Intermediate",
+          "company": "HackerRank",
+          "type": "Pelatihan",
+          "earned": "14 Agustus 2024",
+          "path": "/certification_problemsolving_hackerrank.png",
+          "url_credential": "https://www.hackerrank.com/certificates/15625f46c878"
+        },
+        {
+          "name": "Belajar Fundamental Aplikasi Web dengan React",
+          "company": "Dicoding",
+          "type": "Pelatihan",
+          "earned": "15 Desember 2023",
+          "path": "/certification_fundamentalreact_dicoding.png",
+          "url_credential": "https://www.dicoding.com/certificates/2VX3OYNYVZYQ"
+        },
+        {
+          "name": "Belajar Membuat Aplikasi Web dengan React",
+          "company": "Dicoding",
+          "type": "Pelatihan",
+          "earned": "24 September 2023",
+          "path": "/certification_dasarreact_dicoding.png",
+          "url_credential": "https://www.dicoding.com/certificates/GRX52Q99YX0M"
+        },
+        {
+          "name": "React & React Native for Frontend Developer",
+          "company": "Hacktiv8",
+          "type": "Bootcamp",
+          "earned": "30 Juni 2023",
+          "path": "/certification_react_hacktiv8.png",
+          "url_credential": "https://drive.google.com/file/d/1_kAhjFulL6_fB4TtoVyWNgAGsdZYvbO1/view?usp=drive_link"
+        },
+        {
+          "name": "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Cloudeka",
+          "company": "Dicoding",
+          "type": "Pelatihan",
+          "earned": "28 Desember 2022",
+          "path": "/certification_backend_dicoding.png",
+          "url_credential": "https://www.dicoding.com/certificates/72ZD903DJPYW"
+        },
+        {
+          "name": "Belajar Dasar Git dengan GitHub",
+          "company": "Dicoding",
+          "type": "Pelatihan",
+          "earned": "23 Agustus 2021",
+          "path": "/certification_git_dicoding.png",
+          "url_credential": "https://www.dicoding.com/certificates/N9ZOEONKYXG5"
+        },
+        {
+          "name": "React JS Web Frontend",
+          "company": "Jabar Coding Camp",
+          "type": "Bootcamp",
+          "earned": "28 September 2021",
+          "path": "/certification_react_jcc.png",
+          "url_credential": "https://drive.google.com/file/d/1vcmnAetKjqAYeySUlmh18RVeVuRDYt_e/view"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "section": "Projek",
+    "items": [
+      {
+        "title": "KPI RU VII Kasim",
+        "description": "Landing page modern untuk Kilang Pertamina di Sorong.",
+        "techStack": [
+          {
+            "name": "Next.js",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Framer Motion",
+            "icon": "SiFramer"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "",
+        "demo": "https://www.kehatiruviikasim.com/",
+        "path": "/kehatiru7.png"
+      },
+      {
+        "title": "LLMS",
+        "description": "Platform berbasis AI untuk membuat pelajaran dan kuis dengan mudah.",
+        "techStack": [
+          {
+            "name": "Next.js",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Shadcn UI",
+            "icon": "SiShadcnui"
+          },
+          {
+            "name": "Prisma",
+            "icon": "SiPrisma"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "OpenAI",
+            "icon": "SiOpenai"
+          }
+        ],
+        "repository": "https://github.com/namassist/lllm",
+        "demo": "",
+        "path": "/llms.png"
+      },
+      {
+        "title": "AMD Academy",
+        "description": "Pusat pelatihan teknologi yang fokus pada pengembangan keterampilan IT.",
+        "techStack": [
+          {
+            "name": "Laravel",
+            "icon": "SiLaravel"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "SiBootstrap"
+          }
+        ],
+        "repository": "",
+        "demo": "https://amd.arkatama.id",
+        "path": "/amd-academy.png"
+      },
+      {
+        "title": "Bantoonusa",
+        "description": "Landing page untuk layanan pengembangan web Bantoonusa.",
+        "techStack": [
+          {
+            "name": "Next",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
+        "demo": "https://bantoonusa.vercel.app",
+        "path": "/bantoonusa.png"
+      },
+      {
+        "title": "SAMPAM",
+        "description": "Sistem untuk memantau magang dengan pembaruan log harian dan pelacakan kehadiran.",
+        "techStack": [
+          {
+            "name": "Next.js",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Prisma",
+            "icon": "SiPrisma"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Shadcn UI",
+            "icon": "SiShadcnui"
+          }
+        ],
+        "repository": "https://github.com/namassist/sampam",
+        "demo": "",
+        "path": "/sampam.png"
+      },
+      {
+        "title": "API Sistem Presensi online QRcode",
+        "description": "API untuk presensi online menggunakan kode QR, membuat check-in cepat dan mudah.",
+        "techStack": [
+          {
+            "name": "Express",
+            "icon": "SiExpress"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "Prisma",
+            "icon": "SiPrisma"
+          },
+          {
+            "name": "JWT",
+            "icon": "SiJsonwebtokens"
+          }
+        ],
+        "repository": "https://github.com/namassist/sipintar_api",
+        "demo": "",
+        "path": "/certif-top.png"
+      },
+      {
+        "title": "Movie App",
+        "description": "Aplikasi film untuk dengan mudah menemukan, menjelajahi, dan menyimpan film favorit Anda.",
+        "techStack": [
+          {
+            "name": "React",
+            "icon": "SiReact"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Redux",
+            "icon": "SiRedux"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "https://github.com/namassist/movies-app",
+        "demo": "https://moviesisst.vercel.app/",
+        "path": "/movieku.png"
+      },
+      {
+        "title": "E-Commerce App",
+        "description": "Situs e-commerce yang mudah digunakan untuk browsing dan berbelanja.",
+        "techStack": [
+          {
+            "name": "React",
+            "icon": "SiReact"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Redux",
+            "icon": "SiRedux"
+          },
+          {
+            "name": "DaisyUI",
+            "icon": "SiDaisy"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "https://github.com/namassist/e-commerce",
+        "demo": "https://nam-commerce.vercel.app/",
+        "path": "/ecommerce.png"
+      },
+      {
+        "title": "Hotel Reservation App",
+        "description": "Aplikasi pemesanan hotel yang membantu Anda dengan cepat menemukan dan memesan kamar.",
+        "techStack": [
+          {
+            "name": "React",
+            "icon": "SiReact"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Redux",
+            "icon": "SiRedux"
+          },
+          {
+            "name": "Expo",
+            "icon": "SiExpo"
+          }
+        ],
+        "repository": "https://github.com/namassist/hotel-reservation",
+        "demo": "",
+        "path": "/certif-top.png"
+      }
+    ]
+  },
+  "contacts": {
+    "section": "Kontak",
+    "title": "Hubungi Saya.",
+    "description": "Saya senang mendengar dari Anda. Baik itu tentang proyek, pertanyaan, atau sekadar menyapa, jangan ragu untuk menghubungi saya.",
+    "cta_email": "Kirim Email.",
+    "cta_socmed": "Temukan saya di media sosial."
+  },
+  "footer": {
+    "title": "Hak Cipta dilindungi",
+    "created": "Dibuat dengan"
+  }
+}
