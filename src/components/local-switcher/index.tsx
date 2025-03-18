@@ -17,7 +17,7 @@ export default function LocalSwitcher() {
   };
 
   return (
-    <div className="fixed bottom-20 right-8 z-[999]">
+    <div className="hidden md:block fixed bottom-16 right-8 z-[999]">
       <label className="border-2 rounded">
         <p className="sr-only">change language</p>
         <select
