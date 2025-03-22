@@ -37,7 +37,7 @@
   },
   "about": {
     "section": "Tentang",
-    "paragraph1": "Hai, saya Chairul Anaam Maulidin, seorang Frontend Engineer dengan pengalaman 2 tahun dalam mengembangkan aplikasi dengan React, Next.js, dan Flutter. Dengan fondasi yang kuat dalam pengembangan frontend, saya membangun aplikasi dengan menerapkan best practice untuk memastikan efisiensi, keamanan, dan skalabilitas.",
+    "paragraph1": "Hai, saya Chairul Anaam Maulidin, seorang Frontend Engineer dengan pengalaman 1+ tahun dalam mengembangkan aplikasi dengan React, Next.js, dan Flutter. Dengan fondasi yang kuat dalam pengembangan frontend, saya membangun aplikasi dengan menerapkan best practice untuk memastikan efisiensi, keamanan, dan skalabilitas.",
     "paragraph2": "Saya terbiasa bekerja di lingkungan yang dinamis, cepat beradaptasi dengan teknologi baru, dan menghadirkan solusi yang meningkatkan pengalaman pengguna. Fleksibilitas saya dalam berbagai bahasa pemrograman memungkinkan saya mengembangkan aplikasi secara lebih efektif dan cepat, sekaligus memastikan hasil yang diinginkan tercapai.",
     "paragraph3": "Saya sedang mencari peluang baru untuk berkolaborasi dengan tim yang inovatif dan terus berkembang sebagai developer. Mari kita bangun sesuatu yang hebat bersama!"
   },
@@ -59,7 +59,7 @@
           "end_at": "Sekarang",
           "description": [
             "Mengembangkan Medibook, sistem operasional klinik yang digunakan di lebih dari 10 cabang, serta memastikan kelancaran operasional dan skalabilitas.",
-            "Membangun Medital, aplikasi booking jadwal online, fokus pada desain dan fungsionalitas yang ramah pengguna.",
+            "Mengembangkan Medital, aplikasi booking jadwal online, fokus pada desain dan fungsionalitas yang ramah pengguna.",
             "Mengoptimalkan performa frontend pada kedua aplikasi untuk meningkatkan kecepatan dan responsivitas.",
             "Berkolaborasi dengan tim dari divisi lain untuk memberikan solusi yang sejalan dengan tujuan bisnis."
           ]
@@ -83,7 +83,7 @@
           "start_at": "Agu 2023",
           "end_at": "Des 2023",
           "description": [
-            "Merancang dan mengembangkan landing page sistem informasi akademik (SIAKAD) yang responsif menggunakan Figma dan Bootstrap, meningkatkan keterlibatan pengguna sebesar 25%.",
+            "Merancang dan mengembangkan landing page sistem informasi akademik (SIAKAD) yang responsif menggunakan Figma dan Bootstrap.",
             "Membangun template dashboard admin yang dapat digunakan kembali, diadopsi oleh 5+ tim internal dan mengurangi waktu pengembangan sebesar 15%",
             "Mengembangkan AMD Academy, platform e-learning dengan 500+ pengguna aktif, menggunakan Laravel dan Bootstrap."
           ]

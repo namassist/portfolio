@@ -1,15 +1,16 @@
-import Ripple from "@/components/magicui/ripple";
-import AvatarCircles from "@/components/magicui/avatar-circles";
-import ShinyButton from "@/components/magicui/shiny-button";
+import Ripple from "@/components/ui/ripple";
+import AvatarCircles from "@/components/ui/avatar-circles";
+import ShinyButton from "@/components/ui/shiny-button";
 import PulsatingButton from "@/components/ui/pulsating-button";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Hero() {
   const { ref } = useSectionInView("home");
   const t = useTranslations("hero");
+  const localActive = useLocale();
 
   return (
     <motion.section
@@ -28,7 +29,7 @@ export default function Hero() {
         </p>
         <div className="flex gap-3">
           <Link
-            href="/curriculum-vitae.pdf"
+            href={localActive == "id" ? "ID-CV.pdf" : "ENG-CV.pdf"}
             download
             target="_blank"
             rel="noopener noreferrer"

@@ -3,7 +3,7 @@ import { slugs } from "@/lib/data";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import SectionTitle from "@/components/section-title";
-import IconCloud from "@/components/magicui/icon-cloud";
+import IconCloud from "@/components/ui/icon-cloud";
 import { SquareTerminal } from "lucide-react";
 import { useTranslations } from "next-intl";
 
