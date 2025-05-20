@@ -34,6 +34,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className="scroll-smooth">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
         className={`${inter.variable} ${calistoga.variable} antialiased font-sans`}
       >
