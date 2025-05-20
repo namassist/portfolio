@@ -102,7 +102,7 @@ export default function Experiences() {
           </div>
           <div className="grid grid-cols-2">
             <Image
-              src={item.path || "/certification_frontend_hackerrank.png"}
+              src={item.path || "/certification_frontend_hackerrank.webp"}
               alt={item.name}
               width={500}
               height={500}

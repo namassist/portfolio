@@ -122,7 +122,7 @@ export const certifications = [
     company: "HackerRank",
     type: "Training",
     earned: "26 August 2024",
-    path: "/certification_softwarengineer_hackerrank.png",
+    path: "/certification_softwarengineer_hackerrank.webp",
     url_credential: "https://www.hackerrank.com/certificates/b7b89ad7e8d1",
   },
   {
@@ -130,7 +130,7 @@ export const certifications = [
     company: "HackerRank",
     type: "Training",
     earned: "13 August 2024",
-    path: "/certification_frontend_hackerrank.png",
+    path: "/certification_frontend_hackerrank.webp",
     url_credential: "https://www.hackerrank.com/certificates/7efa24004355",
   },
   {
@@ -138,7 +138,7 @@ export const certifications = [
     company: "HackerRank",
     type: "Training",
     earned: "14 August 2024",
-    path: "/certification_problemsolving_hackerrank.png",
+    path: "/certification_problemsolving_hackerrank.webp",
     url_credential: "https://www.hackerrank.com/certificates/15625f46c878",
   },
   {
@@ -146,7 +146,7 @@ export const certifications = [
     company: "Dicoding",
     type: "Training",
     earned: "15 December 2023",
-    path: "/certification_fundamentalreact_dicoding.png",
+    path: "/certification_fundamentalreact_dicoding.webp",
     url_credential: "https://www.dicoding.com/certificates/2VX3OYNYVZYQ",
   },
   {
@@ -154,7 +154,7 @@ export const certifications = [
     company: "Dicoding",
     type: "Training",
     earned: "24 September 2023",
-    path: "/certification_dasarreact_dicoding.png",
+    path: "/certification_dasarreact_dicoding.webp",
     url_credential: "https://www.dicoding.com/certificates/GRX52Q99YX0M",
   },
   {
@@ -162,7 +162,7 @@ export const certifications = [
     company: "Hacktiv8",
     type: "Bootcamp",
     earned: "30 Juni 2023",
-    path: "/certification_react_hacktiv8.png",
+    path: "/certification_react_hacktiv8.webp",
     url_credential:
       "https://drive.google.com/file/d/1_kAhjFulL6_fB4TtoVyWNgAGsdZYvbO1/view?usp=drive_link",
   },
@@ -171,7 +171,7 @@ export const certifications = [
     company: "Dicoding",
     type: "Training",
     earned: "28 December 2022",
-    path: "/certification_backend_dicoding.png",
+    path: "/certification_backend_dicoding.webp",
     url_credential: "https://www.dicoding.com/certificates/72ZD903DJPYW",
   },
   {
@@ -179,7 +179,7 @@ export const certifications = [
     company: "Dicoding",
     type: "Training",
     earned: "23 August 2021",
-    path: "/certification_git_dicoding.png",
+    path: "/certification_git_dicoding.webp",
     url_credential: "https://www.dicoding.com/certificates/N9ZOEONKYXG5",
   },
   {
@@ -187,7 +187,7 @@ export const certifications = [
     company: "Jabar Coding Camp",
     type: "Bootcamp",
     earned: "28 September 2021",
-    path: "/certification_react_jcc.png",
+    path: "/certification_react_jcc.webp",
     url_credential:
       "https://drive.google.com/file/d/1vcmnAetKjqAYeySUlmh18RVeVuRDYt_e/view",
   },
@@ -218,7 +218,7 @@ export const portfolio = [
     ],
     repository: "",
     demo: "https://www.kehatiruviikasim.com/",
-    path: "/kehatiru7.png",
+    path: "/kehatiru7.webp",
   },
   {
     title: "LLMS",
@@ -252,7 +252,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/lllm",
     demo: "",
-    path: "/llms.png",
+    path: "/llms.webp",
   },
   {
     title: "AMD Academy",
@@ -273,7 +273,7 @@ export const portfolio = [
     ],
     repository: "",
     demo: "https://amd.arkatama.id",
-    path: "/amd-academy.png",
+    path: "/amd-academy.webp",
   },
   {
     title: "Bantoonusa",
@@ -294,7 +294,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/lintang-nuswantara-landing-page",
     demo: "https://bantoonusa.vercel.app",
-    path: "/bantoonusa.png",
+    path: "/bantoonusa.webp",
   },
   {
     title: "SAMPAM",
@@ -324,7 +324,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/sampam",
     demo: "",
-    path: "/sampam.png",
+    path: "/sampam.webp",
   },
   {
     title: "API Sistem Presensi online QRcode",
@@ -350,7 +350,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/sipintar_api",
     demo: "",
-    path: "/certif-top.png",
+    path: "/certif-top.webp",
   },
   {
     title: "Movie App",
@@ -376,7 +376,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/movies-app",
     demo: "https://moviesisst.vercel.app/",
-    path: "/movieku.png",
+    path: "/movieku.webp",
   },
   {
     title: "E-Commerce App",
@@ -405,7 +405,7 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/e-commerce",
     demo: "https://nam-commerce.vercel.app/",
-    path: "/ecommerce.png",
+    path: "/ecommerce.webp",
   },
   {
     title: "Hotel Reservation App",
@@ -431,6 +431,6 @@ export const portfolio = [
     ],
     repository: "https://github.com/namassist/hotel-reservation",
     demo: "",
-    path: "/certif-top.png",
+    path: "/certif-top.webp",
   },
 ];
