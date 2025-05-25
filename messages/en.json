@@ -200,6 +200,124 @@
     "section": "Projects",
     "items": [
       {
+        "title": "Kaliko",
+        "description": "A mobile app for digital electricity billing and monitoring in boarding houses.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          }
+        ],
+        "repository": "https://github.com/namassist/kaliko",
+        "demo": "#",
+        "path": "/portfolio/kaliko.png"
+      },
+      {
+        "title": "Medital",
+        "description": "A mobile app for booking clinic doctor appointments quickly and easily.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          },
+          {
+            "name": "Sql Lite",
+            "icon": "SiSqlite"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://play.google.com/store/apps/details?id=com.medital.medital_apps&hl=id",
+        "path": "/portfolio/medital.png"
+      },
+      {
+        "title": "AMD Academy",
+        "description": "A tech training center focused on developing IT skills.",
+        "techStack": [
+          {
+            "name": "Laravel",
+            "icon": "SiLaravel"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "SiBootstrap"
+          }
+        ],
+        "repository": "",
+        "demo": "https://amd.arkatama.id",
+        "path": "/portfolio/amd-academy.png"
+      },
+      {
+        "title": "Bantoonusa",
+        "description": "Landing page for Bantoonusa's web development services.",
+        "techStack": [
+          {
+            "name": "Next",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
+        "demo": "https://bantoonusa.vercel.app",
+        "path": "/portfolio/bantoonusa.png"
+      },
+      {
+        "title": "Medibook",
+        "description": "a clinic operational system that streamlines patient management and administrative tasks.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          },
+          {
+            "name": "AWS",
+            "icon": "SiAmazonwebservices"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://medibook.medital.id/ngagellive",
+        "path": "/portfolio/medibook.png"
+      },
+      {
+        "title": "Landing Page Medital",
+        "description": "Landing Page for Medital apps",
+        "techStack": [
+          {
+            "name": "Next.js",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://medital.id",
+        "path": "/portfolio/medital-lp.png"
+      },
+      {
         "title": "KPI RU VII Kasim",
         "description": "A modern landing page for Kilang Pertamina's refinery in Sorong.",
         "techStack": [
@@ -222,7 +340,7 @@
         ],
         "repository": "",
         "demo": "https://www.kehatiruviikasim.com/",
-        "path": "/kehatiru7.webp"
+        "path": "/portfolio/kehatiru7.png"
       },
       {
         "title": "LLMS",
@@ -255,49 +373,7 @@
         ],
         "repository": "https://github.com/namassist/lllm",
         "demo": "",
-        "path": "/llms.webp"
-      },
-      {
-        "title": "AMD Academy",
-        "description": "A tech training center focused on developing IT skills.",
-        "techStack": [
-          {
-            "name": "Laravel",
-            "icon": "SiLaravel"
-          },
-          {
-            "name": "MySQL",
-            "icon": "SiMysql"
-          },
-          {
-            "name": "Bootstrap",
-            "icon": "SiBootstrap"
-          }
-        ],
-        "repository": "",
-        "demo": "https://amd.arkatama.id",
-        "path": "/amd-academy.webp"
-      },
-      {
-        "title": "Bantoonusa",
-        "description": "Landing page for Bantoonusa's web development services.",
-        "techStack": [
-          {
-            "name": "Next",
-            "icon": "SiNextdotjs"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
-        "demo": "https://bantoonusa.vercel.app",
-        "path": "/bantoonusa.webp"
+        "path": "/portfolio/llms.png"
       },
       {
         "title": "SAMPAM",
@@ -326,111 +402,7 @@
         ],
         "repository": "https://github.com/namassist/sampam",
         "demo": "",
-        "path": "/sampam.webp"
-      },
-      {
-        "title": "API Sistem Presensi online QRcode",
-        "description": "An API for online attendance using QR codes, making check-ins fast and easy.",
-        "techStack": [
-          {
-            "name": "Express",
-            "icon": "SiExpress"
-          },
-          {
-            "name": "MySQL",
-            "icon": "SiMysql"
-          },
-          {
-            "name": "Prisma",
-            "icon": "SiPrisma"
-          },
-          {
-            "name": "JWT",
-            "icon": "SiJsonwebtokens"
-          }
-        ],
-        "repository": "https://github.com/namassist/sipintar_api",
-        "demo": "",
-        "path": "/certif-top.webp"
-      },
-      {
-        "title": "Movie App",
-        "description": "A movie app to easily find, explore, and save your favorite films.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/movies-app",
-        "demo": "https://moviesisst.vercel.app/",
-        "path": "/movieku.webp"
-      },
-      {
-        "title": "E-Commerce App",
-        "description": "An easy-to-use e-commerce site for browsing and shopping.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "DaisyUI",
-            "icon": "SiDaisy"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/e-commerce",
-        "demo": "https://nam-commerce.vercel.app/",
-        "path": "/ecommerce.webp"
-      },
-      {
-        "title": "Hotel Reservation App",
-        "description": "A hotel booking app that helps you quickly find and reserve rooms.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "Expo",
-            "icon": "SiExpo"
-          }
-        ],
-        "repository": "https://github.com/namassist/hotel-reservation",
-        "demo": "",
-        "path": "/certif-top.webp"
+        "path": "/portfolio/sampam.png"
       }
     ]
   },

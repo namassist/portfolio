@@ -199,6 +199,124 @@
     "section": "Projek",
     "items": [
       {
+        "title": "Kaliko",
+        "description": "Aplikasi mobile untuk penagihan dan pemantauan listrik digital di rumah kos.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          }
+        ],
+        "repository": "https://github.com/namassist/kaliko",
+        "demo": "#",
+        "path": "/portfolio/kaliko.png"
+      },
+      {
+        "title": "Medital",
+        "description": "Aplikasi mobile untuk booking jadwal dokter klinik dengan cepat dan mudah.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          },
+          {
+            "name": "Sql Lite",
+            "icon": "SiSqlite"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://play.google.com/store/apps/details?id=com.medital.medital_apps&hl=id",
+        "path": "/portfolio/medital.png"
+      },
+      {
+        "title": "AMD Academy",
+        "description": "Pusat pelatihan teknologi yang fokus pada pengembangan keterampilan IT.",
+        "techStack": [
+          {
+            "name": "Laravel",
+            "icon": "SiLaravel"
+          },
+          {
+            "name": "MySQL",
+            "icon": "SiMysql"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "SiBootstrap"
+          }
+        ],
+        "repository": "",
+        "demo": "https://amd.arkatama.id",
+        "path": "/portfolio/amd-academy.png"
+      },
+      {
+        "title": "Bantoonusa",
+        "description": "Landing page untuk layanan pengembangan web Bantoonusa.",
+        "techStack": [
+          {
+            "name": "Next",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          },
+          {
+            "name": "Vercel",
+            "icon": "SiVercel"
+          }
+        ],
+        "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
+        "demo": "https://bantoonusa.vercel.app",
+        "path": "/portfolio/bantoonusa.png"
+      },
+      {
+        "title": "Medibook",
+        "description": "Sistem operasional klinik yang menyederhanakan manajemen pasien dan tugas administratif.",
+        "techStack": [
+          {
+            "name": "Flutter",
+            "icon": "SiFlutter"
+          },
+          {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+          },
+          {
+            "name": "AWS",
+            "icon": "SiAmazonwebservices"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://medibook.medital.id/ngagellive",
+        "path": "/portfolio/medibook.png"
+      },
+      {
+        "title": "Landing Page Medital",
+        "description": "Landing Page untuk aplikasi Medital",
+        "techStack": [
+          {
+            "name": "Next.js",
+            "icon": "SiNextdotjs"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss"
+          }
+        ],
+        "repository": "#",
+        "demo": "https://medital.id",
+        "path": "/portfolio/medital-lp.png"
+      },
+      {
         "title": "KPI RU VII Kasim",
         "description": "Landing page modern untuk Kilang Pertamina di Sorong.",
         "techStack": [
@@ -221,7 +339,7 @@
         ],
         "repository": "",
         "demo": "https://www.kehatiruviikasim.com/",
-        "path": "/kehatiru7.webp"
+        "path": "/portfolio/kehatiru7.png"
       },
       {
         "title": "LLMS",
@@ -254,49 +372,7 @@
         ],
         "repository": "https://github.com/namassist/lllm",
         "demo": "",
-        "path": "/llms.webp"
-      },
-      {
-        "title": "AMD Academy",
-        "description": "Pusat pelatihan teknologi yang fokus pada pengembangan keterampilan IT.",
-        "techStack": [
-          {
-            "name": "Laravel",
-            "icon": "SiLaravel"
-          },
-          {
-            "name": "MySQL",
-            "icon": "SiMysql"
-          },
-          {
-            "name": "Bootstrap",
-            "icon": "SiBootstrap"
-          }
-        ],
-        "repository": "",
-        "demo": "https://amd.arkatama.id",
-        "path": "/amd-academy.webp"
-      },
-      {
-        "title": "Bantoonusa",
-        "description": "Landing page untuk layanan pengembangan web Bantoonusa.",
-        "techStack": [
-          {
-            "name": "Next",
-            "icon": "SiNextdotjs"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
-        "demo": "https://bantoonusa.vercel.app",
-        "path": "/bantoonusa.webp"
+        "path": "/portfolio/llms.png"
       },
       {
         "title": "SAMPAM",
@@ -325,111 +401,7 @@
         ],
         "repository": "https://github.com/namassist/sampam",
         "demo": "",
-        "path": "/sampam.webp"
-      },
-      {
-        "title": "API Sistem Presensi online QRcode",
-        "description": "API untuk presensi online menggunakan kode QR, membuat check-in cepat dan mudah.",
-        "techStack": [
-          {
-            "name": "Express",
-            "icon": "SiExpress"
-          },
-          {
-            "name": "MySQL",
-            "icon": "SiMysql"
-          },
-          {
-            "name": "Prisma",
-            "icon": "SiPrisma"
-          },
-          {
-            "name": "JWT",
-            "icon": "SiJsonwebtokens"
-          }
-        ],
-        "repository": "https://github.com/namassist/sipintar_api",
-        "demo": "",
-        "path": "/certif-top.webp"
-      },
-      {
-        "title": "Movie App",
-        "description": "Aplikasi film untuk dengan mudah menemukan, menjelajahi, dan menyimpan film favorit Anda.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/movies-app",
-        "demo": "https://moviesisst.vercel.app/",
-        "path": "/movieku.webp"
-      },
-      {
-        "title": "E-Commerce App",
-        "description": "Situs e-commerce yang mudah digunakan untuk browsing dan berbelanja.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "DaisyUI",
-            "icon": "SiDaisy"
-          },
-          {
-            "name": "Vercel",
-            "icon": "SiVercel"
-          }
-        ],
-        "repository": "https://github.com/namassist/e-commerce",
-        "demo": "https://nam-commerce.vercel.app/",
-        "path": "/ecommerce.webp"
-      },
-      {
-        "title": "Hotel Reservation App",
-        "description": "Aplikasi pemesanan hotel yang membantu Anda dengan cepat menemukan dan memesan kamar.",
-        "techStack": [
-          {
-            "name": "React",
-            "icon": "SiReact"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "SiTailwindcss"
-          },
-          {
-            "name": "Redux",
-            "icon": "SiRedux"
-          },
-          {
-            "name": "Expo",
-            "icon": "SiExpo"
-          }
-        ],
-        "repository": "https://github.com/namassist/hotel-reservation",
-        "demo": "",
-        "path": "/certif-top.webp"
+        "path": "/portfolio/sampam.png"
       }
     ]
   },
