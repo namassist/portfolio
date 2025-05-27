@@ -214,7 +214,7 @@
         ],
         "repository": "https://github.com/namassist/kaliko",
         "demo": "#",
-        "path": "/portfolio/kaliko.png"
+        "path": "/kaliko.png"
       },
       {
         "title": "Medital",
@@ -235,7 +235,7 @@
         ],
         "repository": "#",
         "demo": "https://play.google.com/store/apps/details?id=com.medital.medital_apps&hl=id",
-        "path": "/portfolio/medital.png"
+        "path": "/medital.png"
       },
       {
         "title": "AMD Academy",
@@ -256,7 +256,7 @@
         ],
         "repository": "",
         "demo": "https://amd.arkatama.id",
-        "path": "/portfolio/amd-academy.png"
+        "path": "/amd-academy.png"
       },
       {
         "title": "Bantoonusa",
@@ -277,7 +277,7 @@
         ],
         "repository": "https://github.com/namassist/lintang-nuswantara-landing-page",
         "demo": "https://bantoonusa.vercel.app",
-        "path": "/portfolio/bantoonusa.png"
+        "path": "/bantoonusa.png"
       },
       {
         "title": "Medibook",
@@ -298,7 +298,7 @@
         ],
         "repository": "#",
         "demo": "https://medibook.medital.id/ngagellive",
-        "path": "/portfolio/medibook.png"
+        "path": "/medibook.png"
       },
       {
         "title": "Landing Page Medital",
@@ -315,7 +315,7 @@
         ],
         "repository": "#",
         "demo": "https://medital.id",
-        "path": "/portfolio/medital-lp.png"
+        "path": "/medital-lp.png"
       },
       {
         "title": "KPI RU VII Kasim",
@@ -340,7 +340,7 @@
         ],
         "repository": "",
         "demo": "https://www.kehatiruviikasim.com/",
-        "path": "/portfolio/kehatiru7.png"
+        "path": "/kehatiru7.png"
       },
       {
         "title": "LLMS",
@@ -373,7 +373,7 @@
         ],
         "repository": "https://github.com/namassist/lllm",
         "demo": "",
-        "path": "/portfolio/llms.png"
+        "path": "/llms.png"
       },
       {
         "title": "SAMPAM",
@@ -402,7 +402,7 @@
         ],
         "repository": "https://github.com/namassist/sampam",
         "demo": "",
-        "path": "/portfolio/sampam.png"
+        "path": "/sampam.png"
       }
     ]
   },
